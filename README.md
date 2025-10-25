@@ -4,6 +4,11 @@ Personal configuration files managed with **[GNU Stow](https://www.gnu.org/softw
 
 Each directory (e.g. `nvim/`, `kitty/`, `waybar/`) is a _stow package_ containing config files that will be symlinked to your home directory.
 
+<p align="center">
+  <img src="demo.gif" width="600" alt="Demo">
+</p>
+
+
 ---
 
 ## Structure
