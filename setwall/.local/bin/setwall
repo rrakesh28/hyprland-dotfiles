@@ -1,0 +1,8 @@
+#!/bin/bash
+WALL="$1"
+swww img "$WALL" --transition-type any
+wal -i "$WALL"
+#~/.config/hypr/update_borders.sh
+pkill waybar && waybar &
+hyprctl reload
+
